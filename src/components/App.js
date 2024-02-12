@@ -4,8 +4,8 @@ import "../styles/App.css";
 let arr = ["Siblings", "Friends", "Love", "Affection", "Marriage", "Enemy"];
 
 const App = () => {
-  const [name1, setName1] = useState(""); //Soumya
-  const [name2, setName2] = useState(""); //ansh
+  const [name1, setName1] = useState("");
+  const [name2, setName2] = useState("");
   const [relationship, setRelationship] = useState("");
   const [btnClicked, setBtnClicked] = useState(false);
 
